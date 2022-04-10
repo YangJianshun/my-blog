@@ -1,0 +1,51 @@
+.markdown {
+  overflow: hidden;
+}
+
+.markdown p {
+  @apply text-gray-700 my-1 ml-3;
+}
+
+.markdown pre code {
+  @apply rounded ml-3 my-3;
+}
+
+.markdown ul {
+  @apply ml-8 text-gray-700 list-disc;
+}
+
+.markdown ul li {
+  @apply text-gray-700 list-disc;
+}
+
+/* .markdown code {
+  @apply bg-gray-800;
+} */
+
+/* .markdown pre code {
+  @apply ml-3;
+} */
+
+.markdown h1 {
+  @apply text-gray-900 text-5xl my-7;
+}
+
+.markdown h2 {
+  @apply text-gray-900 text-4xl my-6;
+}
+
+.markdown h3 {
+  @apply text-gray-900 text-3xl my-5;
+}
+
+.markdown h4 {
+  @apply text-gray-900 text-2xl my-4;
+}
+
+.markdown h5 {
+  @apply text-gray-900 text-xl my-3;
+}
+
+.markdown h6 {
+  @apply text-gray-900 text-lg my-2;
+}

@@ -1,0 +1,5 @@
+{
+  "https://cdn.skypack.dev/-/marked@v4.0.3-QGFKLV3diPbE6AL7DVSK/dist=es2019,mode=imports/optimized/marked.js": { "integrity": "sha512-8Q01CkeRuVrIRu/aV9W58Qc0gTtOCWCfr+OiRM0eLYbRlFoB07gNTwRf0zzV6+VX8H3xBig7dnK786NN/d4ehA==", "contentType": "application/javascript; charset=utf-8" },
+  "https://cdn.skypack.dev/marked": { "integrity": "sha512-T67PpmLGifG509WvJCgyWfN/yQ3khsv65Mlqk5uIKBHyZcDru87CKjcR/g2VGeF+lmOmxQ9dMT1C34MqEVs8ww==", "contentType": "application/javascript; charset=utf-8" },
+  "version": 1
+}
