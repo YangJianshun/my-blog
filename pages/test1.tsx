@@ -41,6 +41,7 @@ const Demo = () => {
       }}>show ref</button>
       <br />
       <button onClick={() => {
+        // @ts-ignore
         ref1.current.changeColor();
       }}>change color</button>
     </>
