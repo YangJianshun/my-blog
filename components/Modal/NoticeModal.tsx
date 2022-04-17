@@ -45,7 +45,7 @@ export async function showNoticeModal(props: Props) {
     ReactDOM.unmountComponentAtNode(modalDiv);
   }
 
-  const {title, content, onOk, onCancel} = props;
+  const {title, content, onOk} = props;
   return new Promise(resolve => {
     ReactDOM.render(
       <NoticeModal
@@ -54,11 +54,6 @@ export async function showNoticeModal(props: Props) {
         onOk={() => {
           onOk && onOk();
           resolve(true);
-          close();
-        }}
-        onCancel={() => {
-          onCancel && onCancel();
-          resolve(false);
           close();
         }}
         show={true}

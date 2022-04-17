@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
 import Head from 'next/head';
-import Router from 'next/Router';
+import Router from 'next/router';
 import style from '../../styles/article/article.module.css';
 import { Lock, Unlock, Delete, Back, Okay } from '@icon-park/react';
 import { useEffect, useState } from 'react';

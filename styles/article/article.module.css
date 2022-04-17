@@ -23,7 +23,7 @@
   bottom: 0;
   z-index: -999;
   
-  background-color: #FFF;
+  /* background-color: #FFF;
 
   background-image:
     radial-gradient(#FFF2E2 30%, transparent 35%),
@@ -31,7 +31,12 @@
     radial-gradient(#FFF2E2 30%, transparent 35%),
     radial-gradient(#FFF2E2 30%, transparent 35%);
   background-size: 50px 50px, 50px 50px, 50px 50px, 50px 50px;
-  background-position: -8.5px -8.5px, 8.5px 8.5px, 8.5px -8.5px, -8.5px 8.5px;
+  background-position: -8.5px -8.5px, 8.5px 8.5px, 8.5px -8.5px, -8.5px 8.5px; */
+  background: #eee;
+  background-image: url('/bcg.jpeg');
+  background-size: 100% 100%;
+  /* background-position: 0 0; */
+  background-repeat: no-repeat;
 }
 
 .listContainer {
