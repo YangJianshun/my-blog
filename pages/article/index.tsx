@@ -70,6 +70,8 @@ const Article: NextPage = () => {
     setId('');
     setArticle(undefined);
     setUnlock(false);
+    setContent('');
+    setCommentList([]);
   };
 
   const goToDetail = async (article: IArticle) => {
