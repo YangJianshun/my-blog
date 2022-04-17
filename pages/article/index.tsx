@@ -40,8 +40,7 @@ const Article: NextPage = () => {
 
   useEffect(() => {
     if (!article) return;
-    getCommentList();
-    getContent();
+    getArticleData();
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [article])
 
@@ -59,6 +58,12 @@ const Article: NextPage = () => {
     return list.data as IComment[];
   }
 
+  const getArticleData = async () => {
+    setLoading(true);
+    await Promise.all([getCommentList(), getContent()]);
+    setLoading(false);
+  }
+  
   const getContent = async () => {
     const content = (await request({ url: '/api/article/getContent', data: {articleId: id} })).data;
     setContent(content);
