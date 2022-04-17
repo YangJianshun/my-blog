@@ -1,0 +1,106 @@
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(119, 119, 119, 0.3);
+  z-index: 99999;
+}
+
+.container {
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 25px;
+  box-shadow: #777;
+  width: 300px;
+  opacity: 1;
+  padding: 25px;
+  padding-bottom: 75px;
+  position: relative;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.content {
+  font-size: 24px;
+  color: rgba(209, 213, 219);
+  margin: 10px 20px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid rgba(209, 213, 219, 0.6);
+  position: absolute;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  font-size: 36px;
+  border-right: 2px solid rgba(209, 213, 219, 0.6);
+}
+
+.btn:hover {
+  font-size: 38px;
+}
+
+.btn:last-child {
+  border: none;
+}
+
+.btnCancel {
+  color: red;
+}
+
+.btnOk {
+  color: white;
+  background-color: rgba(209, 213, 219, 0.6);
+}
+
+.passwdInput {
+  background-color: white;
+  border: 1px solid rgba(209, 213, 219, 0.2);
+  box-shadow: -2px 0 5px #f3f3f3 inset;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.passwdInputFocus {
+  box-shadow: -2px 0 5px #aaa inset;
+}
+
+.passwdInputHide {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.passwdInputContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.loading {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  opacity: 0.5;
+  animation-duration: 3s;
+}
